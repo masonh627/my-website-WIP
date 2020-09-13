@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+        <title>Page Title</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	    <form class="home" method="post" style="visibility: visible;" id="home">
+	        <h1>Home</h1>
+	        <input type="button" name="" value="Sign in" onclick="signinscreen()">
+	        <input type="button" name="" value="Sign up" onclick="signupscreen()">
+	    </form>
+	    <form class="login" method="post" style="visibility: hidden;" id="signinscren">
+	        <h1>Login</h1>
+	        <label id="AlertText"></label>
+	        <input type="text" name="" placeholder="Username" id="userbox">
+	        <input type="password" name="" placeholder="Password" id="passbox">
+	        <input type="button" name="" value="Log in" onclick="login1()" id="login">
+	        <input type="button" name="" value="back" onclick="home()" id="back">
+	    </form>
+	    <form class="signup" method="post" style="visibility: hidden;" id="signupscren">
+	        <h1>sign up</h1>
+	        <label id="AlertText2"></label>
+	        <input type="text" name="" placeholder="Username" id="userbox2">
+	        <input type="password" name="" placeholder="Password" id="passbox2">
+	        <input type="button" name="" value="Sign up" id="signup" onclick="signup1()">
+	        <input type="button" name="" value="back" onclick="home()" id="back1">
+	    </form>
+	    <form class="loggedhome" method="post" style="visibility: hidden;" id="loggedhome">
+	        <small><p1 id="usernametext"></p1></small>
+	        <h1>HOME</h1>
+        </form>
+        <script src="index.js"></script>
+	    <script>
+// this is all just stuff for the JS section of the website ignore pls
+let userbox = document.getElementById("userbox");
+let passbox = document.getElementById("passbox");
+let userbox2 = document.getElementById("userbox2");
+let passbox2 = document.getElementById("passbox2");
+let alerttext = document.getElementById("AlertText");
+let alerttext2 = document.getElementById("AlertText2");
+let signupscren = document.getElementById("signupscren");
+let signinscren = document.getElementById("signinscren");
+let homef = document.getElementById("home")
+let loggedhomep = document.getElementById("loggedhome")
+let usernametext = document.getElementById("usernametext")
+let usernames = ["test"];
+let passwords = ["test"];
+        </script>
+	</body>
+</html>

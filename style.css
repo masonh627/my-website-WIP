@@ -1,0 +1,175 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: #34495e;
+}
+.login{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+}
+.login h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.login input[type="text"],.login input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.login input[type="text"]:focus,.login input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.login input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.login input[type="button"]:hover{
+    background: #2ecc71;
+}
+.login label{
+    color: white;
+    transition: 0.25s;
+    font-weight: 500;
+    visibility: visible;
+}
+.login input[id="back"].signin input[id="back"]{
+    padding: 10px;
+}
+.signup {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+}
+.signup h1{
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.signup input[type="text"],.signup input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.signup input[type="text"]:focus,.signup input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.signup input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.signup input[type="button"]:hover{
+    background: #2ecc71;
+}
+.signup label[id="AlertText2"]{
+    color: white;
+}
+.home {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+}
+.home input[type="button"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.home input[type="button"]:hover{
+    background: #2ecc71;
+}
+.home h1{
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.loggedhome{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    border-radius: 24px;
+    text-align: center;
+    color:white;
+}
+.loggedhome h1{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.loggedhome p[id="usernametext"]{
+    color: white;
+}
+.loggedhome h1{
+    font-weight:500;
+}
